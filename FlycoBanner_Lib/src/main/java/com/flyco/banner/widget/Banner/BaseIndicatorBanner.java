@@ -105,7 +105,7 @@ public abstract class BaseIndicatorBanner<E, T extends BaseIndicatorBanner<E, T>
         try {
             if (mSelectAnimClass != null) {
                 if (position == mLastPositon) {
-                    mSelectAnimClass.newInstance().playOn(mIndicatorViews.get(position));
+                   mSelectAnimClass.newInstance().playOn(mIndicatorViews.get(position));
                 } else {
                     mSelectAnimClass.newInstance().playOn(mIndicatorViews.get(position));
                     if (mUnselectAnimClass == null) {

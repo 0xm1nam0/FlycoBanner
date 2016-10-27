@@ -3,8 +3,6 @@ package com.flyco.banner.transform;
 import android.view.View;
 import android.support.v4.view.ViewPager;
 
-import com.nineoldandroids.view.ViewHelper;
-
 public class RotateDownTransformer implements ViewPager.PageTransformer {
 
 	private static final float ROT_MOD = -15f;
@@ -15,8 +13,8 @@ public class RotateDownTransformer implements ViewPager.PageTransformer {
 		final float height = page.getHeight();
 		final float rotation = ROT_MOD * position * -1.25f;
 
-		ViewHelper.setPivotX(page,width * 0.5f);
-        ViewHelper.setPivotY(page,height);
-        ViewHelper.setRotation(page,rotation);
+		page.setPivotX(width * 0.5f);
+		page.setPivotY(height);
+		page.setRotation(rotation);
 	}
 }

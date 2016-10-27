@@ -1,10 +1,10 @@
 package com.flyco.banner.anim.select;
 
+import android.animation.Animator;
+import android.animation.ObjectAnimator;
 import android.view.View;
 
 import com.flyco.banner.anim.BaseAnimator;
-import com.nineoldandroids.animation.Animator;
-import com.nineoldandroids.animation.ObjectAnimator;
 
 public class RotateEnter extends BaseAnimator {
     public RotateEnter() {
