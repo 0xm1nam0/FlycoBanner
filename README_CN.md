@@ -1,6 +1,6 @@
 #FlycoBanner-Master
 
-一个Android View轮播库,支持2.2+.
+一个Android View轮播库,支持3.0+.
 
 ##Demo
 ![](https://github.com/H07000223/FlycoBanner_Master/blob/master/preview_FlycoBanner.gif)
@@ -12,8 +12,7 @@
 ```groovy
 dependencies{
     compile 'com.android.support:support-v4:22.2.1'
-    compile 'com.nineoldandroids:library:2.4.0'
-    compile 'com.flyco.banner:FlycoBanner_Lib:2.0.2@aar'
+    compile 'com.github.weiss:FlycoBanner_Lib:2.2'
 }
 ```
 
@@ -168,5 +167,6 @@ sib
 
 
 ##Thanks
+*   [FlycoBanner_Master](https://github.com/H07000223/FlycoBanner_Master)
 *   [LoopingViewPager](https://github.com/imbryk/LoopingViewPager)
 *   [NineOldAndroids](https://github.com/JakeWharton/NineOldAndroids)
