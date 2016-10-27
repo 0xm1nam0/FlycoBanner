@@ -1,6 +1,6 @@
 #FlycoBanner-Master
-#### [中文版](https://github.com/H07000223/FlycoBanner_Master/blob/master/README_CN.md)
-An android view looper library. Support for Android 2.2 and up. 
+#### [中文版](https://github.com/WeissWill/FlycoBanner/blob/master/README_CN.md)
+An android view looper library. Support for Android 3.0 and up. 
 
 ##Demo
 ![](https://github.com/H07000223/FlycoBanner_Master/blob/master/preview_FlycoBanner.gif)
@@ -12,8 +12,7 @@ An android view looper library. Support for Android 2.2 and up.
 ```groovy
 dependencies{
     compile 'com.android.support:support-v4:22.2.1'
-    compile 'com.nineoldandroids:library:2.4.0'
-    compile 'com.flyco.banner:FlycoBanner_Lib:2.0.2@aar'
+    compile 'com.github.weiss:FlycoBanner_Lib:2.2'
 }
 ```
 
@@ -168,5 +167,6 @@ sib
 
 
 ##Thanks
+*   [FlycoBanner_Master](https://github.com/H07000223/FlycoBanner_Master)
 *   [LoopingViewPager](https://github.com/imbryk/LoopingViewPager)
 *   [NineOldAndroids](https://github.com/JakeWharton/NineOldAndroids)
